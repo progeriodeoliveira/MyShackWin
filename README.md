@@ -17,4 +17,7 @@ Notas do Autor:
 - O Código fonte poderá ser obtido em https://github.com/progeriodeoliveira/MyShackWin, ao qual com conhecimento em c++ e banco de dados você poderá contribuir para programas de Radioamadores
 - O Código está disponível para análise e contribuição da comunidade de desenvolvimento, com isso, você poderá ver realmente como foi feito e quais ações são executadas em seu computador
 - O desenvolvedor deste programa não presta suporte neste sistema e não garante danos que podem ser causados em seu computador com o uso
-- Ficarei contente em receber um  e-mail com indicações de melhorias
+
+Sintam-se a vontade em enviar um e-mail com notas para a melhoria deste sistema, é um sistema básico porém funcional.
+
+Rogério PU2NFO
