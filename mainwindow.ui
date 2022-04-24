@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1337</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string extracomment="Abrir uma Rodada"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1337</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRodadas">
+    <property name="title">
+     <string>&amp;Rodadas</string>
+    </property>
+    <addaction name="actionRodadas"/>
+    <addaction name="actionAbrir_uma_Rodada"/>
+    <addaction name="actionVerificar_Rodadas_em_Aberto"/>
+   </widget>
+   <widget class="QMenu" name="menuSistema">
+    <property name="title">
+     <string>&amp;Sistema</string>
+    </property>
+    <addaction name="actionSo_bre"/>
+    <addaction name="actionSair_2"/>
+   </widget>
+   <widget class="QMenu" name="menuRadioamadores">
+    <property name="title">
+     <string>&amp;Cadastro</string>
+    </property>
+    <addaction name="actionPesquisa_Indicativo"/>
+    <addaction name="actionOperadores"/>
+   </widget>
+   <addaction name="menuSistema"/>
+   <addaction name="menuRadioamadores"/>
+   <addaction name="menuRodadas"/>
+  </widget>
+  <widget class="QToolBar" name="toobar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Abrir uma Rodada"/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSair_2"/>
+   <addaction name="separator"/>
+   <addaction name="actionPesquisa_Indicativo"/>
+   <addaction name="actionOperadores"/>
+   <addaction name="separator"/>
+   <addaction name="actionRodadas"/>
+   <addaction name="actionAbrir_uma_Rodada"/>
+   <addaction name="actionVerificar_Rodadas_em_Aberto"/>
+  </widget>
+  <action name="actionOperadores">
+   <property name="icon">
+    <iconset resource="imgs/imagens.qrc">
+     <normaloff>:/coordenador.png</normaloff>:/coordenador.png</iconset>
+   </property>
+   <property name="text">
+    <string>Coordenadores</string>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Coordenadores">Coordenadores</string>
+   </property>
+  </action>
+  <action name="actionRodadas">
+   <property name="icon">
+    <iconset resource="imgs/imagens.qrc">
+     <normaloff>:/cadastroRodadas.png</normaloff>:/cadastroRodadas.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastro de Rodadas</string>
+   </property>
+  </action>
+  <action name="actionRodadas_Abertas">
+   <property name="text">
+    <string>Comentarios de Coordenadores</string>
+   </property>
+  </action>
+  <action name="actionStatus_na_Rodada">
+   <property name="text">
+    <string>Rodadas Abertas</string>
+   </property>
+  </action>
+  <action name="actionRadioamadores">
+   <property name="text">
+    <string>Radioamadores</string>
+   </property>
+  </action>
+  <action name="actionRadioamadores_Comentarios">
+   <property name="text">
+    <string>Radioamadores Comentários</string>
+   </property>
+  </action>
+  <action name="actionVerificar_Rodadas_em_Aberto">
+   <property name="icon">
+    <iconset resource="imgs/imagens.qrc">
+     <normaloff>:/localizarRodada.png</normaloff>:/localizarRodada.png</iconset>
+   </property>
+   <property name="text">
+    <string>Verificar Rodadas em Aberto</string>
+   </property>
+  </action>
+  <action name="actionAbrir_uma_Rodada">
+   <property name="icon">
+    <iconset resource="imgs/imagens.qrc">
+     <normaloff>:/rodada.png</normaloff>:/rodada.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir uma Rodada</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="text">
+    <string>Sobre MyShackDB Rodadas</string>
+   </property>
+  </action>
+  <action name="actionSair_2">
+   <property name="icon">
+    <iconset resource="imgs/imagens.qrc">
+     <normaloff>:/sair.png</normaloff>:/sair.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Encerrar</string>
+   </property>
+  </action>
+  <action name="actionMyShack">
+   <property name="text">
+    <string>MyShack</string>
+   </property>
+  </action>
+  <action name="actionPainel_de_Rodadas">
+   <property name="text">
+    <string>Painel de Rodadas</string>
+   </property>
+  </action>
+  <action name="actionPesquisa_Indicativo">
+   <property name="icon">
+    <iconset resource="imgs/imagens.qrc">
+     <normaloff>:/radioamadores.png</normaloff>:/radioamadores.png</iconset>
+   </property>
+   <property name="text">
+    <string>Radioamadores</string>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Radioamadores">Radioamadores</string>
+   </property>
+  </action>
+  <action name="actionSo_bre">
+   <property name="text">
+    <string>So&amp;bre</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="imgs/imagens.qrc"/>
+ </resources>
+ <connections/>
+</ui>
