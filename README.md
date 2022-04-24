@@ -12,7 +12,7 @@ Desenvolvido pelo Radioamador Paulo Rogério de Oliveira
 QRA ROGÉRIO PU2NFO
 E-Mail: progeriodeoliveira@gmail.com
 
-Nota do Autor:
+Notas do Autor:
 - Este software é distribuido sobre os termos do GPL v3.0
 - O Código fonte poderá ser obtido em https://github.com/progeriodeoliveira/MyShack-Win/, ao qual com conhecimento em c++ e banco de dados você poderá contribuir para programas de Radioamadores
 - O Código está disponível para análise e contribuição da comunidade de desenvolvimento, com isso, você poderá ver realmente como foi feito e quais ações são executadas em seu computador
